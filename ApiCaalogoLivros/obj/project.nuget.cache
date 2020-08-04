@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qhccTtx92/3hRE3rnV5xaDd1hSHmIEZDfeCQiP7+UGPk44VTliJlDYbDOp9Lam7QzfX4xABwln6cZPPwo/geLg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Api\\ApiCaalogoLivros\\ApiCaalogoLivros\\ApiCaalogoLivros.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vitor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
