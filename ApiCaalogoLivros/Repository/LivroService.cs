@@ -20,34 +20,49 @@ namespace ApiCaalogoLivros.Repository
             var livros = _repo.Query();
 
             if (!string.IsNullOrEmpty(filtros.Autor))
-                livros = livros.Where(p => p.Especificacoes.Author.Contains(filtros.Autor)).ToList();
+            {
+                livros = livros.Where(p => p.Specifications.Author.Contains(filtros.Autor)).ToList();
+            }
 
             if (!string.IsNullOrEmpty(filtros.NomeLivro))
+            {
                 livros = livros.Where(p => p.Name.Contains(filtros.NomeLivro)).ToList();
+            }
 
             if (filtros.PrecoInicial != null)
+            {
                 livros = livros.Where(p => p.Price >= filtros.PrecoInicial).ToList();
+            }
 
             if (filtros.PrecoFinal != null)
+            {
                 livros = livros.Where(p => p.Price <= filtros.PrecoFinal).ToList();
+            }
 
             if (!string.IsNullOrEmpty(filtros.Genero))
-                livros = livros.Where(p => p.Especificacoes.Genres.Contains(filtros.Genero)).ToList();
+            {
+                livros = livros.Where(p => p.Specifications.Genres.Contains(filtros.Genero)).ToList();
+            }
 
             if (!string.IsNullOrEmpty(filtros.Ilustrador))
-                livros = livros.Where(p => p.Especificacoes.Illustrator.Any(s => s.Contains(filtros.Ilustrador))).ToList();
+            {
+                livros = livros.Where(p => p.Specifications.Illustrator.Any(s => s.Contains(filtros.Ilustrador))).ToList();
+            }
 
             if (filtros.QuantidadePaginasInicial != null)
-                livros = livros.Where(p => p.Especificacoes.PageCount >= filtros.QuantidadePaginasInicial).ToList();
+            {
+                livros = livros.Where(p => p.Specifications.PageCount >= filtros.QuantidadePaginasInicial).ToList();
+            }
 
             if (filtros.QuantidadePaginasFinal != null)
-                livros = livros.Where(p => p.Especificacoes.PageCount <= filtros.QuantidadePaginasFinal).ToList();
-
+            {
+                livros = livros.Where(p => p.Specifications.PageCount <= filtros.QuantidadePaginasFinal).ToList();
+            }
 
             switch (filtros.CampoOrdenacao)
             {
                 case "autor":
-                    livros = filtros.Crescente ? livros.OrderBy(p => p.Especificacoes.Author).ToList() : livros.OrderByDescending(p => p.Especificacoes.Author).ToList();
+                    livros = filtros.Crescente ? livros.OrderBy(p => p.Specifications.Author).ToList() : livros.OrderByDescending(p => p.Specifications.Author).ToList();
                     break;
 
                 case "nome":
@@ -59,7 +74,7 @@ namespace ApiCaalogoLivros.Repository
                     break;
 
                 case "pagina":
-                    livros = filtros.Crescente ? livros.OrderBy(p => p.Especificacoes.PageCount).ToList() : livros.OrderByDescending(p => p.Especificacoes.PageCount).ToList();
+                    livros = filtros.Crescente ? livros.OrderBy(p => p.Specifications.PageCount).ToList() : livros.OrderByDescending(p => p.Specifications.PageCount).ToList();
                     break;
 
                 default:

@@ -1,15 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
+using Newtonsoft.Json;
 
 namespace ApiCaalogoLivros.Models
 {
     public class Livros
     {
+        [JsonProperty("id")]
         public int Id { get; set; }
+
+        [JsonProperty("name")]
         public string Name { get; set; }
+
+        [JsonProperty("price")]
         public double Price { get; set; }
-        public Especificacoes Especificacoes { get; set; }
+
+        [JsonProperty("specifications")]
+        public Specifications Specifications { get; set; }
     }
 }

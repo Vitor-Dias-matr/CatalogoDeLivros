@@ -1,16 +1,23 @@
-﻿using System;
+﻿using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ApiCaalogoLivros.Models
 {
-    public class Especificacoes
+    public class Specifications
     {
+        [JsonProperty("Originallypublished")]
         public string OriginallyPublished { get; set; }
+
+        [JsonProperty("Author")]
         public string Author { get; set; }
+
+        [JsonProperty("Pagecount")]
         public int PageCount { get; set; }
+
+        [JsonProperty("Illustrator")]
         public List<string> Illustrator { get; set; }
+
+        [JsonProperty("Genres")]
         public List<string> Genres { get; set; }
     }
 }
