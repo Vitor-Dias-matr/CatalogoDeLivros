@@ -4,14 +4,11 @@
     {
         public string Autor { get; set; }
         public string NomeLivro { get; set; }
-        public double? PrecoInicial { get; set; }
-        public double? PrecoFinal { get; set; }
+        public double? Preco{ get; set; }        
         public string Genero { get; set; }
         public string Ilustrador { get; set; }
-        public int? QuantidadePaginasInicial { get; set; }
-        public int? QuantidadePaginasFinal { get; set; }
+        public int? QuantidadePaginas { get; set; }
         public string CampoOrdenacao { get; set; }
         public bool Crescente { get; set; }
-        public double CalcularFrete { get; set; }
     }
 }

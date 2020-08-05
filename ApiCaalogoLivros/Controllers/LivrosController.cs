@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using ApiCaalogoLivros.Models;
 using ApiCaalogoLivros.Repository;
 using Microsoft.AspNetCore.Mvc;
@@ -10,15 +11,14 @@ namespace ApiCaalogoLivros.Controllers
     public class LivrosController : ControllerBase
     {
         private readonly ILivroService _service;
-
+        
         public LivrosController(ILivroService service)
         {
             _service = service;
         }
 
-        public List<Livros> Get([FromQuery] string autor, [FromQuery] string nomelivro,
-          [FromQuery] double? precoinicial, [FromQuery] double? precofinal,
-          [FromQuery] string genero, [FromQuery] string ilustrador,
+        public ActionResult<Livros> Get([FromQuery] string autor, [FromQuery] string nomelivro,
+          [FromQuery] double? preco,[FromQuery] string genero, [FromQuery] string ilustrador,
           [FromQuery] int? quantidadepaginasinicial, [FromQuery] int? quantidadepaginasfinal,
           [FromQuery] string campoOrdenacao, [FromQuery] bool cresente,
           [FromQuery] double calculaFrete)
@@ -28,19 +28,26 @@ namespace ApiCaalogoLivros.Controllers
             {
                 Autor = autor,
                 NomeLivro = nomelivro,
-                PrecoInicial = precoinicial,
-                PrecoFinal = precofinal,
+                Preco = preco,
                 Genero = genero,
                 Ilustrador = ilustrador,
-                QuantidadePaginasInicial = quantidadepaginasinicial,
-                QuantidadePaginasFinal = quantidadepaginasfinal,
+                QuantidadePaginas = quantidadepaginasinicial,
                 CampoOrdenacao = campoOrdenacao,
                 Crescente = cresente,
-                CalcularFrete = calculaFrete
-
             };
 
-            return _service.BuscarLivros(filtros);
+            var result = _service.BuscarLivros(filtros).Select(x => new
+            {
+                x.Id,
+                x.Name,
+                x.Price,
+                x.Specifications,
+
+                valorDoFrete = _service.CalcularFrete(x.Id)
+
+            });
+
+            return Ok(result);
         }
     }
 }

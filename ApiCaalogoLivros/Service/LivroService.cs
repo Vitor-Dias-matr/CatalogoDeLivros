@@ -29,14 +29,9 @@ namespace ApiCaalogoLivros.Repository
                 livros = livros.Where(p => p.Name.Contains(filtros.NomeLivro)).ToList();
             }
 
-            if (filtros.PrecoInicial != null)
+            if (filtros.Preco != null)
             {
-                livros = livros.Where(p => p.Price >= filtros.PrecoInicial).ToList();
-            }
-
-            if (filtros.PrecoFinal != null)
-            {
-                livros = livros.Where(p => p.Price <= filtros.PrecoFinal).ToList();
+                livros = livros.Where(p => p.Price >= filtros.Preco).ToList();
             }
 
             if (!string.IsNullOrEmpty(filtros.Genero))
@@ -49,14 +44,9 @@ namespace ApiCaalogoLivros.Repository
                 livros = livros.Where(p => p.Specifications.Illustrator.Any(s => s.Contains(filtros.Ilustrador))).ToList();
             }
 
-            if (filtros.QuantidadePaginasInicial != null)
+            if (filtros.QuantidadePaginas != null)
             {
-                livros = livros.Where(p => p.Specifications.PageCount >= filtros.QuantidadePaginasInicial).ToList();
-            }
-
-            if (filtros.QuantidadePaginasFinal != null)
-            {
-                livros = livros.Where(p => p.Specifications.PageCount <= filtros.QuantidadePaginasFinal).ToList();
+                livros = livros.Where(p => p.Specifications.PageCount >= filtros.QuantidadePaginas).ToList();
             }
 
             switch (filtros.CampoOrdenacao)
@@ -89,8 +79,9 @@ namespace ApiCaalogoLivros.Repository
         {
             var livro = _repo.Query().Where(p => p.Id == id).FirstOrDefault();
 
-            if (livro == null)
+            if (livro == null) { 
                 return 0;
+            }
 
             return livro.Price * 0.2;
         }
