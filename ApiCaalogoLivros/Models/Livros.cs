@@ -15,6 +15,6 @@ namespace ApiCaalogoLivros.Models
         public double Price { get; set; }
 
         [JsonProperty("specifications")]
-        public Specifications Specifications { get; set; }
+        public Especificacoes Specifications { get; set; }
     }
 }

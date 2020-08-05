@@ -19,7 +19,9 @@ namespace ApiCaalogoLivros.Controllers
         public List<Livros> Get([FromQuery] string autor, [FromQuery] string nomelivro,
           [FromQuery] double? precoinicial, [FromQuery] double? precofinal,
           [FromQuery] string genero, [FromQuery] string ilustrador,
-          [FromQuery] int? quantidadepaginasinicial, [FromQuery] int? quantidadepaginasfinal)
+          [FromQuery] int? quantidadepaginasinicial, [FromQuery] int? quantidadepaginasfinal,
+          [FromQuery] string campoOrdenacao, [FromQuery] bool cresente,
+          [FromQuery] double calculaFrete)
         {
 
             var filtros = new Filtros
@@ -32,6 +34,10 @@ namespace ApiCaalogoLivros.Controllers
                 Ilustrador = ilustrador,
                 QuantidadePaginasInicial = quantidadepaginasinicial,
                 QuantidadePaginasFinal = quantidadepaginasfinal,
+                CampoOrdenacao = campoOrdenacao,
+                Crescente = cresente,
+                CalcularFrete = calculaFrete
+
             };
 
             return _service.BuscarLivros(filtros);

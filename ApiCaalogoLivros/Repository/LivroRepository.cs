@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace ApiCaalogoLivros.Repository
@@ -12,8 +13,12 @@ namespace ApiCaalogoLivros.Repository
         {
             var json = File.ReadAllText(@"../ApiCaalogoLivros/Livros.json", Encoding.GetEncoding("iso-8859-1"));
 
-            var livros = JsonConvert.DeserializeObject<List<Livros>>(json); 
+            var livros = JsonConvert.DeserializeObject<List<Livros>>(json);
 
+            //  livros.OrderBy(x => x.Price);
+
+            //livros = livros.OrderBy(x => x.Price).ToList();
+                
             return livros;
 
         }

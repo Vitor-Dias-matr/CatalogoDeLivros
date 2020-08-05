@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ApiCaalogoLivros.Models
 {
-    public class Specifications
+    public class Especificacoes
     {
         [JsonProperty("Originallypublished")]
         public string OriginallyPublished { get; set; }

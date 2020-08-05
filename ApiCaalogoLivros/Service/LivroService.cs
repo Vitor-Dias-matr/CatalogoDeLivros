@@ -94,6 +94,5 @@ namespace ApiCaalogoLivros.Repository
 
             return livro.Price * 0.2;
         }
-
     }
 }

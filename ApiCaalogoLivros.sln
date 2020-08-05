@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCaalogoLivros", "ApiCaalogoLivros\ApiCaalogoLivros.csproj", "{8D1EEA17-1291-498C-AE8F-CBF13A2CC583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCaalogoLivros", "ApiCaalogoLivros\ApiCaalogoLivros.csproj", "{8D1EEA17-1291-498C-AE8F-CBF13A2CC583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{C38AE305-6A86-4106-B0D1-88C42DA4B2CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8D1EEA17-1291-498C-AE8F-CBF13A2CC583}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D1EEA17-1291-498C-AE8F-CBF13A2CC583}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D1EEA17-1291-498C-AE8F-CBF13A2CC583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38AE305-6A86-4106-B0D1-88C42DA4B2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38AE305-6A86-4106-B0D1-88C42DA4B2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38AE305-6A86-4106-B0D1-88C42DA4B2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38AE305-6A86-4106-B0D1-88C42DA4B2CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
