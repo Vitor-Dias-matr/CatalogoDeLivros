@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qhccTtx92/3hRE3rnV5xaDd1hSHmIEZDfeCQiP7+UGPk44VTliJlDYbDOp9Lam7QzfX4xABwln6cZPPwo/geLg==",
+  "dgSpecHash": "UdO+FLeDSNPiPXAM5CXXvF3HQ2hDyffVssh3lw2HJTcnbvyZldKecWqqpIuP2U0J92ZozdGYcwYK3vQh7QpZmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Api\\ApiCaalogoLivros\\ApiCaalogoLivros\\ApiCaalogoLivros.csproj",
+  "projectFilePath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Api\\Nova pasta\\CatalogoDeLivros\\ApiCaalogoLivros\\ApiCaalogoLivros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

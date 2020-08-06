@@ -22,3 +22,27 @@ C:\Users\vitor\OneDrive\Documentos\Api\ApiCaalogoLivros\ApiCaalogoLivros\obj\Deb
 C:\Users\vitor\OneDrive\Documentos\Api\ApiCaalogoLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.dll
 C:\Users\vitor\OneDrive\Documentos\Api\ApiCaalogoLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.pdb
 C:\Users\vitor\OneDrive\Documentos\Api\ApiCaalogoLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.genruntimeconfig.cache
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\Livros.json
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\ApiCaalogoLivros.exe
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\ApiCaalogoLivros.deps.json
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\ApiCaalogoLivros.runtimeconfig.json
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\ApiCaalogoLivros.runtimeconfig.dev.json
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\ApiCaalogoLivros.dll
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\ApiCaalogoLivros.pdb
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\ApiCaalogoLivros.Views.dll
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.csprojAssemblyReference.cache
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.AssemblyInfoInputs.cache
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.AssemblyInfo.cs
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.csproj.CoreCompileInputs.cache
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.RazorTargetAssemblyInfo.cache
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.csproj.CopyComplete
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\staticwebassets\ApiCaalogoLivros.StaticWebAssets.Manifest.cache
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\staticwebassets\ApiCaalogoLivros.StaticWebAssets.xml
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.dll
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.pdb
+C:\Users\vitor\OneDrive\Documentos\Api\Nova pasta\CatalogoDeLivros\ApiCaalogoLivros\obj\Debug\netcoreapp3.0\ApiCaalogoLivros.genruntimeconfig.cache

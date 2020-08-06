@@ -60,17 +60,17 @@ namespace XUnitTestProject1
         [InlineData("Tolkien", 1)]
         public void BuscarLivroPorIlustrador(string nome, int quantidadeRetorno)
         {
-            //Arranjo
+            //arrange
             var filtro = new Filtros
             {
                 Ilustrador = nome
             };
             _livroRepositoryMock.Setup(m => m.Query()).Returns(MockListaLivro());
 
-            //Ação
+            //act
             var resultado = _livroService.BuscarLivros(filtro);
 
-            //Confirmação
+            //assert
             Assert.Equal(quantidadeRetorno, resultado.Count);
         }
 

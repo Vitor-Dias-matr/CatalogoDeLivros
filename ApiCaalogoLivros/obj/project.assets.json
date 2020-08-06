@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vitor\\OneDrive\\Documentos\\Api\\ApiCaalogoLivros\\ApiCaalogoLivros\\ApiCaalogoLivros.csproj",
+      "projectUniqueName": "C:\\Users\\vitor\\OneDrive\\Documentos\\Api\\Nova pasta\\CatalogoDeLivros\\ApiCaalogoLivros\\ApiCaalogoLivros.csproj",
       "projectName": "ApiCaalogoLivros",
-      "projectPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Api\\ApiCaalogoLivros\\ApiCaalogoLivros\\ApiCaalogoLivros.csproj",
+      "projectPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Api\\Nova pasta\\CatalogoDeLivros\\ApiCaalogoLivros\\ApiCaalogoLivros.csproj",
       "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Api\\ApiCaalogoLivros\\ApiCaalogoLivros\\obj\\",
+      "outputPath": "C:\\Users\\vitor\\OneDrive\\Documentos\\Api\\Nova pasta\\CatalogoDeLivros\\ApiCaalogoLivros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
