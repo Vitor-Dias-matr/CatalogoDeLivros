@@ -19,7 +19,7 @@ namespace ApiCaalogoLivros.Controllers
 
         public ActionResult<Livros> Get([FromQuery] string autor, [FromQuery] string nomelivro,
           [FromQuery] double? preco,[FromQuery] string genero, [FromQuery] string ilustrador,
-          [FromQuery] int? quantidadepaginasinicial,[FromQuery] string campoOrdenacao, 
+          [FromQuery] int? quantidadepaginas, [FromQuery] string campoOrdenacao, 
           [FromQuery] bool cresente)
         {
 
@@ -30,7 +30,7 @@ namespace ApiCaalogoLivros.Controllers
                 Preco = preco,
                 Genero = genero,
                 Ilustrador = ilustrador,
-                QuantidadePaginas = quantidadepaginasinicial,
+                QuantidadePaginas = quantidadepaginas,
                 CampoOrdenacao = campoOrdenacao,
                 Crescente = cresente,
             };
