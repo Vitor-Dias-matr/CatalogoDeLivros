@@ -19,9 +19,8 @@ namespace ApiCaalogoLivros.Controllers
 
         public ActionResult<Livros> Get([FromQuery] string autor, [FromQuery] string nomelivro,
           [FromQuery] double? preco,[FromQuery] string genero, [FromQuery] string ilustrador,
-          [FromQuery] int? quantidadepaginasinicial, [FromQuery] int? quantidadepaginasfinal,
-          [FromQuery] string campoOrdenacao, [FromQuery] bool cresente,
-          [FromQuery] double calculaFrete)
+          [FromQuery] int? quantidadepaginasinicial,[FromQuery] string campoOrdenacao, 
+          [FromQuery] bool cresente)
         {
 
             var filtros = new Filtros
