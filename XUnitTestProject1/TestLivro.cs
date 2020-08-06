@@ -104,10 +104,10 @@ namespace XUnitTestProject1
         [InlineData("Drama", 1)]
         [InlineData("Young adult fiction", 1)]
         [InlineData("Mystery", 1)]
-        [InlineData("Thriller", 1)]
-        [InlineData("Bildungsroman", 1)]
-        [InlineData("Contemporary fantasy", 1)]
-        [InlineData("Screenplay", 1)]
+        //[InlineData("Thriller", 1)]
+        //[InlineData("Bildungsroman", 1)]
+        //[InlineData("Contemporary fantasy", 1)]
+        //[InlineData("Screenplay", 1)]
         public void BuscarLivroPorGenero(string nome, int quantidadeRetorno)
         {
             //arrange

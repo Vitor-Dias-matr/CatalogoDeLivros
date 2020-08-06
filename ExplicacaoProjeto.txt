@@ -1,0 +1,48 @@
+Para rodar o projeto.
+Recomendo que rode no visual studio.
+.Net Core 3.0
+Teste biblioteca Xunit
+
+A baixo estão as Url para fazer as buscas desejadas. Recomendo que utilize essa extenção JSON Viewer: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh/related?hl=pt-BR  
+No navegador para melhor vizualização do json. O valor do frete já retorna junto com os livros.
+
+todos os livros
+https://localhost:44368/api/Livros
+
+autor
+https://localhost:44368/api/Livros?autor=Jules Verne
+https://localhost:44368/api/Livros?autor=J. K. Rowling
+https://localhost:44368/api/Livros?autor=J. R. R. Tolkien
+
+autor por ordem alfabetica
+https://localhost:44368/api/Livros?campoOrdenacao=autor&cresente=false
+https://localhost:44368/api/Livros?campoOrdenacao=autor&cresente=true
+
+nome do livro
+https://localhost:44368/api/Livros?nomelivro=Journey to the Center of the Earth
+https://localhost:44368/api/Livros?nomelivro=20,000 Leagues Under the Sea
+
+preco
+cresente 
+https://localhost:44368/api/Livros?campoOrdenacao=preco&cresente=true
+decresente
+https://localhost:44368/api/Livros?campoOrdenacao=preco&cresente=false   ou
+https://localhost:44368/api/Livros?campoOrdenacao=preco&decresente=true
+
+genero 
+https://localhost:44368/api/Livros?genero=nomeDoGenero
+https://localhost:44368/api/Livros?genero=Science Fiction 
+https://localhost:44368/api/Livros?genero= Adventure fiction
+
+pagina 
+https://localhost:44368/api/Livros?campoOrdenacao=pagina&cresente=true
+https://localhost:44368/api/Livros?campoOrdenacao=pagina&cresente=false
+
+ilustrador
+https://localhost:44368/api/Livros?Ilustrador=Édouard Riou
+https://localhost:44368/api/Livros?Ilustrador=nome do ilustrador
+
+
+Qualquer duvida sobre o codigo pode entrar em contato email: vitor17martins@hotmail.com
+
+Obrigado Vitor Dias Martins.
